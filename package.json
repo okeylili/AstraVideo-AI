@@ -1,0 +1,17 @@
+{
+  "name": "astravideo-ai",
+  "version": "1.0.0",
+  "description": "Text-to-Video Generation Platform",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python main.py",
+    "dev:worker": "cd worker && celery -A video_processor worker --loglevel=info",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && pip install -r requirements.txt",
+    "install:worker": "cd worker && pip install -r requirements.txt",
+    "setup": "npm run install:frontend && npm run install:backend && npm run install:worker"
+  },
+  "keywords": ["ai", "video", "generation", "text-to-video", "saas"],
+  "author": "AstraVideo AI Team",
+  "license": "MIT"
+}

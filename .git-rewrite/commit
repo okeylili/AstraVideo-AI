@@ -1,0 +1,12 @@
+tree 2f27d829dfa7a0d8ead6f65dd30b569b66ae4a0f
+parent 56302d7e3f6573771a54751c643e6f30c81488bc
+author okeylili <your.email@example.com> 1776190175 +0530
+committer okeylili <your.email@example.com> 1776190175 +0530
+
+Initial commit: AstraVideo AI text-to-video platform
+
+- Next.js frontend with TailwindCSS and Framer Motion
+- FastAPI backend with Redis and Celery
+- Celery worker with ModelScope AI integration
+- Demo video generation fallback
+- Complete documentation and setup guides
