@@ -2,7 +2,7 @@
   "name": "astravideo-ai",
   "version": "1.0.0",
   "description": "Text-to-Video Generation Platform",
-  "scripts": {
+  "scripts": { 
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && python main.py",
     "dev:worker": "cd worker && celery -A video_processor worker --loglevel=info",
