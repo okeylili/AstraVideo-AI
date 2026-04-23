@@ -4,6 +4,7 @@
     {
       "src": "frontend/package.json",
       "use": "@vercel/next"
+    
     },
     {
       "src": "backend/main.py",
